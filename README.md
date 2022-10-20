@@ -5,7 +5,13 @@ Source code for **https://invisiblecat.dev** (if I can afford the domain lol)
 
 ## Getting started
 
-First, run the development server:
+First, clone the repo
+
+```bash
+git clone https://github.com/InvisibleCatA1/InvisibleCat.dev.git
+cd InvisibleCat.dev-master
+```
+Then run the devlopment server
 
 ```bash
 npm run dev
