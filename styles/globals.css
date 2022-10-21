@@ -27,6 +27,45 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-h1, h2 {
+ 
+h2 {
   font-size: 2.5 rem;
+}
+
+section {
+  padding-top: 150px;
+}
+
+footer {
+  padding-bottom: 10px;
+  padding-top: 60px;
+  border-top: 1px solid #151d33;
+}
+
+.primary__btn {
+  background:  #151d33 !important;
+  padding: 7px 25px !important;
+  border: 1px solid #11fdca;
+}
+
+
+.primary__btn a {
+  text-decoration: none;
+  color: #11fdca;
+  background: transparent !important;
+}
+
+.secondary__btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  pad: 7px 25px;
+}
+
+.secondary__btn a {
+  color: #11fdca !important;
+}
+
+.primary__btn a:hover, .secondary__btn a:hover {
+  color: unset;
 }
