@@ -15,7 +15,7 @@ a {
 
 * {
   box-sizing: border-box;
-  background-color: #0a122e;
+  background-color: #02040e;
 }
 
 p {
@@ -51,7 +51,7 @@ footer {
 
 .primary__btn a {
   text-decoration: none;
-  color: #11fdca;
+  color: #03c59b;
   background: transparent !important;
 }
 
@@ -63,7 +63,7 @@ footer {
 }
 
 .secondary__btn a {
-  color: #11fdca !important;
+  color: #03c59b !important;
 }
 
 .primary__btn a:hover, .secondary__btn a:hover {

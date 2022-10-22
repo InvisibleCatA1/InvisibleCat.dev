@@ -31,7 +31,8 @@ const Header = () => {
             <div className={`${classes.nav__wrapper}`}>
                 {/*  Pfp */}
                 <div className={`${classes.pfp}`}>
-                    <img src= alt="InvisibleCat"></img>
+                    <img src="/assets/profile/pfp.png" alt="InvisibleCat"></img>
+                    <h1>InvisibleCat</h1>
                 </div>
 
                 {/*  Nav bar*/}
@@ -42,6 +43,12 @@ const Header = () => {
                                 item.display}
                                 </Link>
                             ))}
+
+                            <div className={`${classes.nav__right}`}>
+                                {" "}
+                                <p className=" d-flex align-items-center gap-2 mb-0 "><i className="ri-discord-fill"></i>InvisibleCat#5775</p>
+                                {" "}
+                            </div>
                     </div>
                 </div>
             </div>

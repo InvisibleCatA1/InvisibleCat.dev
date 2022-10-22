@@ -1,0 +1,37 @@
+.nav__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 2.8rem;
+
+}
+
+.nav__menu a {
+    color: #b4c6f3;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav__menu a:hover {
+    transform: scale(1.2);
+    background-color: #03c59b;
+}
+
+.footer__creator {
+    text-align: right;
+    font-weight: 400;
+    color: rgba(167, 164, 164, 0.671);
+}   
+.footer__copyright {
+    border-top: 1px solid #808dad49;
+}
+
+.footer__copyright p {
+    font-size: .8rem;
+    text-align: center;
+    padding-top: 20px;
+}
