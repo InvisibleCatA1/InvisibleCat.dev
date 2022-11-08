@@ -40,7 +40,7 @@
 .pfp h1 {
     font-size: 2.4rem;
     padding-left: 10px;
-    color: #b4c6f3;
+    color: #000000;
 }
 
 .nav__menu {
@@ -51,7 +51,7 @@
 }
 
 .nav__menu a {
-    color: #b4c6f3;
+    color: #000000;
     font-weight: 500;
     font-size: 1rem;
     line-height: 25px;
@@ -63,17 +63,16 @@
 
 .nav__menu a:hover {
     transform: scale(1.2);
-    background-color: #03c59b;
 }
 
 .nav__right p {
-    color: #03c59b;
+    color: #000000;
     margin-left: 20px;
     position: relative;
 }
 
 .nav__right i {
-    color: #b4c6f3;
+    color: #0048fd;
 }
 
 .nav__right p::before {
@@ -83,8 +82,8 @@
     left: -20px;
     width: 1px;
     height: 14px;
-    background: #b4c6f3;
-    color: #b4c6f3;
+    background: #000000;
+    color: #000000;
 }
 
 .header__shrink {

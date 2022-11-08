@@ -11,7 +11,7 @@ const NAV__LINK = [
         display: "Home"
     },
     {
-        path:'#about',
+        path:'/#about',
         display: "About"
     },
     {
