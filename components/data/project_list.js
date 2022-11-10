@@ -1,9 +1,9 @@
-const projects = [
+export const projects = [
     {
         id: "01",
         title: "Fairview Robotics",
         description: "FRC team 2036",
-        img: "/public/assets/images/robotics.png",
+        img: "/assets/images/robotics.png",
         category: "Projects",
         keyword: ["Project", "Robotics"]
     },
@@ -11,7 +11,7 @@ const projects = [
         id: "02",
         title: "Reload",
         description: "Reload is a minecraft hack client",
-        img: "/public/assets/images/reload.png",
+        img: "/assets/images/reload.png",
         category: "Projects",
         keyword: ["Project", "Reolad", "Hack", "Client"]
     },
@@ -19,8 +19,9 @@ const projects = [
         id: "03",
         title: "Learning Web Design",
         description: "I am learning web desgin with Next.js (this website is made with it!)",
-        img: "/public/assets/images/web.png",
+        img: "/assets/images/web.png",
+        href: "https://github.com/InvisibleCatA1/InvisibleCat.dev",
         category: "Projects",
         keyword: ["Project", "Programming"]
-    }
+    },
 ]
