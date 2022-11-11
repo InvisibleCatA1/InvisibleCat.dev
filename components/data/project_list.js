@@ -24,4 +24,12 @@ export const projects = [
         category: "Projects",
         keyword: ["Project", "Programming"]
     },
+    {
+        id: "04",
+        title: "Chandlerware",
+        description: "A rewight of project called Tabber, currently just in the planing process",
+        img: "/assets/images/chandlerware.png",
+        category: "Projects",
+        keyword: ["Project", "Programming"]
+    }
 ]

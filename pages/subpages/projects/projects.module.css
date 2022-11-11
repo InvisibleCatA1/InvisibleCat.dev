@@ -6,14 +6,14 @@
 .column {
     float: left;
     width: 25%;
-    padding: 10px 10px;
-    text-align: center;
+    padding: 20px 10px;
+
 }
 
 
 .row {
-    margin: 0 -5px;
-    
+    margin: 0 -5px; 
+    background-color: #48abe0;   
 }
 
 .row:after {
@@ -21,6 +21,11 @@
     display: table;
     clear: both;
 }
+
+.card::after {
+    padding-left: 20px;
+}
+
 
 .card {
     text-decoration: none;
@@ -37,7 +42,7 @@
 }
 
 .card:hover {
-    transform: scale(1.03);
+    transform: translateY(-1%) scale(1.04);
     box-shadow: 0 0 0 2px rgb(0, 0, 0), 0 0 50px 5px #48abe0;
 }
 
@@ -47,9 +52,10 @@
     filter: brightness(50%);
 }
 
-.card a {
+.card p {
     color: #000;
     /* transform: translate(0%, -140%); */
+    background-color: transparent;
     display: block;
     position: relative;
     top: -30px;

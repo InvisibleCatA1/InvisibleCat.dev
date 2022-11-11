@@ -9,11 +9,10 @@ const Projects = () => {
         <projects className={`${classes.projects}`}>        
             <Container>
                 <h1 className={`${classes.title}`}>Projects</h1>
-                <div className={`${classes.card_conntainer}`}>
                     <div className={`${classes.row}`}>
                         {projects.map((card, index) => (
                             <div className={`${classes.column}`}>
-                                <a className={`${classes.card}`} href={card.href}>
+                                <a className={`${classes.card}`} href={card.href} target="_blank">
                                     <img src={card.img} alt={card.title}></img>
                                     <h3>{card.title}</h3>
                                     <p>{card.description}</p>
@@ -21,7 +20,6 @@ const Projects = () => {
                             </div>
                         ))}
                     </div>
-                </div>
             </Container>
         </projects>
     )

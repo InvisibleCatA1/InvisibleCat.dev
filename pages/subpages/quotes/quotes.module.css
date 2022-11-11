@@ -1,0 +1,25 @@
+.title {
+    padding-top: 5%;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.quote {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.quote p1 {
+    font-size: 0.9rem;
+    color: rgb(116, 108, 108);
+}
+
+
+.quote:not(:last-child):after{
+    content:"";
+    display: block;
+    align-content: center;
+    margin: 1.5rem auto;
+    border-bottom: 2px solid rgb(88, 77, 77);
+    width: 70%;
+}

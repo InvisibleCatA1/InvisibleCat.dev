@@ -1,8 +1,7 @@
 .nav__menu {
     display: flex;
-    align-items: center;
+    align-items: center;    
     column-gap: 2.8rem;
-
 }
 
 .nav__menu a {
@@ -20,17 +19,32 @@
     transform: scale(1.2);
 }
 
-.footer__creator {
+.footer_creator {
     text-align: right;
     font-weight: 400;
     color: rgba(167, 164, 164, 0.671);
-}   
-.footer__copyright {
-    border-top: 1px solid #808dad49;
-}
 
-.footer__copyright p {
+}   
+
+.footer_copyright p {
     font-size: .8rem;
     text-align: center;
-    padding-top: 20px;
+}
+
+.socials {
+    border-top: 1px solid #808dad49;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.social {
+    background-color: transparent;
+    padding-top: 10px;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+
+.social:hover {
+    transform: scale(1.1) translateY(-1%);
 }
