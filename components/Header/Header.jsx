@@ -4,7 +4,6 @@ import { Container } from "reactstrap";
 import classes from './header.module.css'
 import Link from "next/link";
 
-
 const NAV__LINK = [
     {
         path:'/',
@@ -46,8 +45,7 @@ const Header = () => {
 
                             <div className={`${classes.nav__right}`}>
                                 {" "}
-                                <p className=" d-flex align-items-center gap-2 mb-0 "><i className="ri-discord-fill"></i>InvisibleCat#5775</p>
-                                {" "}
+                                <p className=" d-flex align-items-center gap-2 mb-0 "><i className="ri-discord-fill"></i>InvisibleCat#5775</p>                                {" "}
                             </div>
                     </div>
                 </div>
